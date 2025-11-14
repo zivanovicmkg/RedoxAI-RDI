@@ -1,3 +1,10 @@
+RedoxAI-RDI
+
+Python toolkit for computing, analyzing and visualizing the Redox Disturbance Index (RDI) — a unified quantitative score that integrates multiple redox-related biochemical parameters into a single metric (RDI_v5).
+RDI enables robust comparison of oxidative/antioxidative behavior across experiments, treatments and datasets.
+
+This repository contains the core scripts, AI-derived weights, and utilities used in the development of RDI_v5.
+
 📌 Repository contents
 1. normalize_redox.py
 
@@ -61,7 +68,7 @@ time-course or concentration plots
 
 5. scaler_v5.json
 
-Stored means and stds used during development.
+Stored means and standard deviations used during development of RDI_v5.
 
 6. ai_learned_weights_v5.csv
 
@@ -85,30 +92,22 @@ Python: 3.10+ recommended
 
 Libraries:
 
-numpy  
-pandas  
-scikit-learn  
+numpy
+pandas
+scikit-learn
 matplotlib
 
 ▶️ Basic usage
-
 Step 1 — normalize
-
 python normalize_redox.py
 
-
 Step 2 — learn weights (optional)
-
 python learn_weights_ai_v5.py
 
-
 Step 3 — compute RDI_v5
-
 python compute_rdi_v5.py --input-csv redox_data_normalized.csv --weights-csv ai_learned_weights_v5.csv
 
-
 Step 4 — visualize
-
 python rdi_visual_v5.py --csv redox_data_with_RDI_v5.csv
 
 📘 Citation
