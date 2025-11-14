@@ -1,0 +1,16 @@
+{
+  "means": {
+    "norm_superoxide_uM_per_viable_cell": 0.10132188407291666,
+    "norm_nitrites_uM_per_viable_cell": 0.09521839466666666,
+    "norm_h2o2_uM_per_viable_cell": 0.08910768348958333,
+    "norm_gsh_uM_per_viable_cell": 0.1014681155625,
+    "norm_gssg_uM_per_viable_cell": 0.1044927028125
+  },
+  "stds": {
+    "norm_superoxide_uM_per_viable_cell": 0.20762055082969263,
+    "norm_nitrites_uM_per_viable_cell": 0.23055903144425702,
+    "norm_h2o2_uM_per_viable_cell": 0.2048774978004335,
+    "norm_gsh_uM_per_viable_cell": 0.23620049961477912,
+    "norm_gssg_uM_per_viable_cell": 0.25765048544815244
+  }
+}
